@@ -41,7 +41,7 @@ const Form = ({addReserve}) => {
         <input 
             className='input'
             placeholder='Date(mm/dd)'
-            type='date'
+            type='text'
             value={date}
             name='date'
             onChange={event => setDate(event.target.value)}
@@ -49,7 +49,7 @@ const Form = ({addReserve}) => {
         <input 
             className='input'
             placeholder='Time'
-            type='time'
+            type='text'
             value={time}
             name='time'
             onChange={event => setTime(event.target.value)}
