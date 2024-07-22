@@ -1,0 +1,14 @@
+.input {
+    height: 1.5rem;
+    width: 10rem;
+    margin: 1rem;
+}
+
+.Reserve-button {
+    height: 2rem;
+    width: 10rem;
+    background-color: teal;
+    color: white;
+    border: solid 1px white;
+    margin-left: 1rem;
+}
